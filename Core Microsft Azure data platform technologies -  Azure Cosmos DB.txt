@@ -1,0 +1,52 @@
+Azure Cosmos DB is a globally
+distributed multi model database. You can deploy it by
+using several API models. Sequel API, MongoDB API,
+Cassandra API, Gremlin AP, Table API because of the multi model
+architecture of Azure Cosmos DB you benefit from each models
+inherent capabilities. For example, you can use MongoDB for
+semi structured data, Cassandra for white columns or Gremlin for
+graph databases. When you move your data from sequel,
+MongoDB or Cassandra to Azure Cosmos DB. Applications that are built
+using the sequel MongoDB or Cassandra APIs will continue to operate. For more information about the APIs that
+are available in Azure Cosmos DB see the additional resources
+section of your course. Deploy Azure Cosmos DB when you need
+a no sequel database of the supported API model at planet scale and
+with low latency performance. Currently, Azure Cosmos DB supports
+five nine up time, that is 99.999%. It can support response times below
+ten milliseconds when it's correctly provisioned. Consider this example where Azure Cosmos
+DB helps resolve a business problem, Konta so is an e commerce
+retailer based in Manchester UK. The company sells children's toys
+after reviewing power bi reports, Contessa's managers notice a significant
+decrease in sales in Australia. Manager's review customer service
+cases in dynamics 365 and see many Australian customer complaints that their
+sights shopping cart is timing out. Contessa's network operations
+manager confirms the problem. The issue is that the company's only
+data center is located in London. The physical distance from great
+Britain to Australia is causing delays. Contessa applies a solution that uses
+the Microsoft Australia East Data center to provide a local version of
+the data to users in Australia. Contessa migrates their on premises sequel
+database to Azure Cosmos DB by using the sequel API this solution improves
+performance for Australian users. The data can be stored in the UK and replicated to Australia to
+improve throughput times. These are the key features of Azure
+Cosmos DB it supports 99.999% up time. You can invoke a regional fail
+over by using programming or the Azure portal an Azure Cosmos DB
+database will automatically fail over if there's a regional disaster. The multi master replication in Azure
+Cosmos DB Can often achieve a response time of less than one second
+from anywhere in the world. Azure Cosmos DB is guaranteed to
+achieve a response time of less than 10 milliseconds for reads and writes. To maintain the consistency of
+the data in Azure Cosmos DB, your engineering team should introduce
+a new set of consistency levels that address the unique challenges
+of planet scale solutions. Consistency levels include strong
+bonded stillness, session, consistent prefix and eventual. To ingest data into Azure Cosmos DB
+use Azure Data factory, create an application that writes
+data into Azure Cosmos DB through it's API upload Jason documents or
+directly edit the document. As a data engineer you can create
+stored procedures, triggers and user defined functions UDFs or
+use the JavaScript query API. You'll also find other methods to query
+the other A PS within Azure Cosmos DB, for example, in the Data Explorer component,
+you can use the graph visualization pane. Azure Cosmos DB supports data encryption
+type, firewall configurations and access from virtual networks. Data is encrypted automatically user
+authentication is based on tokens, and Azure Active Directory
+provides role based security. Azure Cosmos DB meets many security
+compliance certifications, including hip hop, fed ramp,
+SOCS and high trust.

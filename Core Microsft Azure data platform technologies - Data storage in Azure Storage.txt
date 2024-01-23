@@ -1,0 +1,36 @@
+Azure storage accounts are the base
+storage type within Azure. Azure storage offers a very scalable
+object store for data objects and file system services in the cloud. It can also provide a messaging store for
+reliable messaging or it can act as a no sequel store. Azure storage offers four
+configuration options. Azure blob, a scalable object store for
+text and binary data. Azure files, managed file shares for
+cloud or on premises deployments. Azure queue, a messaging store for reliable messaging between
+application components. Azure table and no sequel store for
+no schema storage of structured data. You can use Azure storage as the storage
+basis when you are provisioning a data platform technology such as Azure Data
+lake storage and HD insight. But you can also provisions Azure storage
+for standalone use for example, you provision an Azure blob store either as
+standard storage in the form of magnetic disk storage or is premium storage in
+the form of solid state drives, SSDs. Now let's take a look at some definitions
+that focus on Azure blob storage. If you need to provision a data
+store that will store but not query data your cheapest option is to
+set up a storage account as a blob store. Blob storage works well with images and
+unstructured data, and it's the cheapest way
+to store data in Azure. It also provides rest API and SDK for
+Azure storage in various languages. And supported code languages include .net,
+java, node, python PHP ruby and go. Azure storage also supports
+scripting in Azure Power Shell and in the Azure command line interface. Data ingestion, to ingest data into
+your system use Azure Data factory storage Explorer, the AzCopy tool,
+Power Shell or visual studio. If you use the file upload feature to
+import file sizes above two gigabytes, use Power Shell or Visual Studio. AzCopy supports a maximum
+file size of one terabyte and automatically splits Data
+files that exceed 200 GB. If you create a storage account as a blob
+store, you can't query the data directly. To directly query the data, either
+move the data to a store that supports queries or set up the Azure storage
+account for a data lake storage. Azure storage encrypts all
+data that's written to it. Azure storage also provides you with fine
+grain control over who has access to your data. You'll secure the data by using keys or
+shared access signatures. Azure resource manager
+provides a permissions model that uses role-based access control,
+RBAC. Use this functionality to set permissions
+and assign roles to users groups or applications.

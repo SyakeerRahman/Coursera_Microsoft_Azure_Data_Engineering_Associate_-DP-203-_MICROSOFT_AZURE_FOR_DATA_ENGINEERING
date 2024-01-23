@@ -1,0 +1,58 @@
+To fully appreciate the phases of a data engineering project, let's examine a high-level
+architecture example of how to holistically design a project by following the five phases. Source, ingest, prepare,
+analyze, and consume. Contoso Health Network
+recently deployed IoT devices to its
+Intensive Care Unit, ICU. Here are the goals
+of the project. Capture data on patient
+bio-metric monitoring in real time to help physicians
+treat their patients, store the bio-metric
+data so that Contoso's Research Center can further analyze
+it in the future. Use Azure Machine Learning to understand which treatments
+improve the quality of care and reduce the likelihood that a patient will be
+re-admitted to the hospital. Create a visualization of the data's history for Contoso's
+Chief Medical Officer. After reviewing
+the business case, Contoso's Technical Architect proposes the following
+technologies. Azure IoT Hub to capture real-time data from
+the ICU's IoT devices, Azure Stream Analytics
+to stream and enrich the IoT data to create
+windows and aggregations, and to integrate Azure
+Machine Learning. Azure Data Lake
+Storage Generation 2 to store the bio-metric
+data at high-speed, Azure Data Factory to perform the extract load
+transform and final load. Azure Synapse Analytics to
+provide data warehousing and big data engineering services to support the Chief
+Medical Officer's needs. Power BI to create the
+patient dashboard. Part of the dashboard will show real-time telemetry about
+the patient's condition, the other part will show the
+patient's recent history, and Azure Machine Learning to process both raw and
+aggregated data. Researchers will
+use this to perform predictive analytics on
+patient re admittance. Contoso's Data Engineer creates a work plan to implement
+the ELT Operations. The plan includes a
+provisioning workflow and holistic workflow. This is the
+provisioning workflow. Provision Azure Data
+Lake Storage Gen 2, Provision Azure
+Synapse Analytics, Provision Azure IoT Hub, Provision Azure
+Stream Analytics, Provision Azure
+Machine Learning, Provision Azure Data Factory, and Provision Power BI. The plan for the holistic
+workflow is to set up Azure IoT Hub to capture data
+from the ICU IoT devices. Connect Azure IoT Hub to
+Azure Stream Analytics. Set up window creation
+functions for the ICU data. The functions will aggregate
+the data for each window. At the same time, set
+up the IoT Hub to move the streaming data to Azure Data Lake Storage
+by using Azure Functions. Set up Azure Functions to store the Azure Stream
+Analytics aggregates in Azure Data Lake
+Storage Gen 2. Use Azure Data Factory to load data from the
+Data Lake into Azure Synapse Analytics to support the Chief
+Medical Officer's needs. After the data is loaded, transformations can occur
+within Azure Synapse Analytics. In parallel, connect the Azure Machine
+Learning Service to Azure Data Lake Storage to
+perform predictive analytics. Connect Power BI to
+stream analytics to pull the real-time aggregates
+for the patient data. Connect Azure Synapse
+Analytics to pull the historical data to
+create a combined dashboard. Contoso Health
+Network's project was to deploy IoT
+devices to its ICU. This diagram shows a
+high level visualization of the data design solution.

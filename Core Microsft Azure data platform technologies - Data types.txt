@@ -1,0 +1,38 @@
+Azure provides many Data
+Platform technologies to meet the needs of
+Common Data varieties. Let's take a brief review of
+the two broad types of data, structured data and
+unstructured data. We will start by looking
+at structured data. In relational database systems
+like Microsoft SQL Server, Azure SQL Database, and
+Azure SQL Data Warehouse, Data Structure is
+defined at design time. Data structure is designed
+in the form of tables. This means it's designed before any information is
+loaded into the system. The Data Structure includes
+the relational model, table structure, column
+width, and data types. Relational systems reacts slowly to changes in data requirements because the structural
+database needs to change every time a data
+requirement changes. When new columns are added, you might need to bulk update all existing records to populate the new columns
+throughout the table. Relational systems typically use a querying language such
+as transact SQL, T-SQL. Examples of unstructured
+data include binary, audio and image files. Unstructured data is stored
+in non-relational systems, commonly called unstructured
+or no SQL systems. In non-relational systems, the data structure
+isn't defined at design time and data is typically loaded
+in its raw format. The data structure is defined
+only when the data is read. The difference in the
+definition point gives you flexibility to use the same source data
+for different outputs. Non-relational systems
+can also support semi-structured data such
+as JSON file formats. The open source world offers four types of NoSQL databases. They are key-value store, stores key-value pairs of
+data in a table structure. Document database stores
+documents that are tied with metadata to
+a document searches. Graph database finds
+relationships between data points by using a structure that's composed of
+vertices and edges. Column database stores data based on columns
+rather than rows. Columns can be defined
+at the queries runtime allowing flexibility in the data that's
+returned performance. Now that you've
+reviewed data types, the next step is to look at common data platform
+technologies that facilitate the storage, processing and querying
+of these data types.

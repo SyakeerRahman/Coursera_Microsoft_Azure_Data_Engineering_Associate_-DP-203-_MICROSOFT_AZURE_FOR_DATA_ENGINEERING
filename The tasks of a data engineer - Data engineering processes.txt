@@ -1,0 +1,79 @@
+The work of a data engineer focuses on
+several data related tasks such as data ingest, egress and transformation. Here are some of the tasks
+of an Azure data engineer. Design and develop data storage and data
+processing solutions for the enterprise. Set up and deploy cloud based data
+services such as Blob services, databases and analytics. Secure the platform and the stored data. Make sure only the necessary
+users can access the data. Ensure business continuity in uncommon
+conditions by using techniques for high availability and
+disaster recovery and monitored to ensure that the systems
+run properly and are cost effective. The data engineers role overlaps with the
+role of the database administrator DBA. In terms of broad tasks,
+the differences are in scope and focus. Data engineers work with
+more than just databases and they focus on cloud implementations
+rather than on premises servers. As a data engineer, you can transfer and
+move data in several ways. One way is to start an extract,
+transform and load ETL process. Extraction sources can include databases,
+files and streams. Each source has unique data formats that
+can be structured, semi structured or unstructured. In Azure data sources
+include Azure cosmos DB, Azure data lake files and
+Azure blob storage. During the extraction process, Data
+engineers define the data and its source. To define a data source you identify
+source details including the resource group, subscription and identity
+information such as a key or secret. In defining the data,
+you'll identify the data to be extracted, this can be accomplished with
+a database query, a set of files or an Azure blob storage name for
+blob storage. In the transform process, data engineers
+to find the data transformation. Data transformation operations
+can include splitting, combining, deriving, adding, removing or
+pivoting columns. Fields are mapped between the data
+source and the data destination. You might also need to aggregate or
+merged data, defying the destination. During a load many Azure destinations
+can accept data formatted as a JavaScript object notation,
+Json file or a blob. You might need to write code to
+interact with application, a piece, start the job, test the ETL job in
+a development or test environment. Then migrate the job to a production
+environment to load the production system. You'll also need to monitor the job. ETL operations can involve
+many complex processes. Set up a proactive and reactive monitoring system to provide
+information when things go wrong. Set up logging according to
+the technology that will use it. As a data engineer,
+you'll use several tools for ETL, the most common tool
+is Azure Data Factory, which provides robust resources and
+nearly 100 enterprise connectors. Data factory also allows you to transform
+data using a wide variety of languages. You may also need a repository to
+maintain information about your organization's data sources and
+dictionaries. Azure data catalog can store
+this information centrally. Azure has opened the way for technologies
+that can handle unstructured data at an unlimited scale,
+this change has shifted the data processing paradigm from the extract,
+transform and load process, ETL. To the extract, load and
+transform process, ELT. The benefit of ELT is that you can
+store data in its original format, be it Json, xml, pdf or images. In ELT, you define the data structure
+during the transformation phase so you can use the source data in
+multiple downstream systems. In an ELT process, data is extracted and
+loaded in its native format, this change reduces the time required to
+load the data into a destination system. The change also limits resource
+contention on the data sources. The steps for the ELT process
+are the same as for the ETL process, they just follow a different order. The ELT process differs
+from ETL in that with ELT, there is a final load into
+a destination system. Organizations are changing their analysis
+types to incorporate predictive and preemptive analytics. Because of these changes,
+as a data engineer, you should look at data
+projects holistically. Data professionals used to focus on ETL,
+but developments in data platform technologies
+lend themselves to an ELT approach. Designed data projects in phases
+that reflect the ELT approach. Source, identify the source
+systems to extract from. Ingest, identify the technology and
+method to load the data. Prepare, identify the technology and
+method to transform or prepare the data. Also, consider the technologies
+you'll use to analyze and consume the data within the project. These are the next two
+phases of the process. Analyze, identify the technology and
+method to analyze the data and consume, identify the technology and
+method to consume and present the data. In traditional descriptive analytics
+projects, you might have transformed data in Azure analysis services and then used
+power BI to consume the analyzed data. New AI technologies such as Azure machine
+learning Services and Azure notebooks provide a wider range of technologies to
+automate some of the required analysis. These project phases don't
+necessarily have to flow linearly, for example, because machine learning
+experimentation is iterative. The analyze phase sometimes reveals
+issues such as missing source data or transformation steps. To get the results you need,
+you might need to repeat earlier phases.

@@ -1,0 +1,50 @@
+Applications, sensors,
+monitoring devices and gateways broadcast continuous
+event data known as data streams. Streaming data is high volume and has a lighter payload than
+non streaming systems. Data engineers use Azure stream
+analytics to process streaming data and respond to data anomalies in real time. And take note that you can use stream
+analytics for internet of things or IoT monitoring, Weblogs, remote
+patient monitoring and point of sale. Also known as POS systems. If your organization must respond
+to data events in real time or analyze large batches of data in
+a continuous time band stream, stream analytics is a good solution. In real time, data is ingested from
+applications or IoT devices and gateways into an event hub or IoT hub. The event hub or IoT hub then streams
+the data into stream analytics for real time analysis,
+then visualization products such as real time dashboards in Power BI
+can be used for analysis. Don't use batch systems for business intelligence systems that
+can't tolerate the predefined interval. For example,
+an autonomous vehicle can't wait for a batch system to adjust its driving and
+similarly a fraud detection system must decline a questionable financial
+transaction in real time. As a data engineer set up data ingestion
+in stream analytics by configuring data inputs from first class
+integration sources. These sources include Azure event hubs. Azure IoT hub and Azure Blob storage. An IoT hub is the cloud gateway
+that connects IoT devices. IoT hubs gather data to drive
+business insights and automation. Features in Azure IoT hub enrich
+the relationship between your devices and your back end systems. And bidirectional communication
+capabilities mean that while you receive data from devices you can also send
+commands and policies back to devices. Take advantage of this ability, for
+example to update properties or invoke device management actions and
+take note that Azure IoT hub can also authenticate access between
+the IoT device and the IoT hub. Azure event hubs provide
+big data streaming service. It's designed for high data throughput allowing customers
+to send billions of requests per day. And event hubs uses a partitioned consumer
+model to scale out Azure data stream. This service is integrated into the big
+data and analytics services of Azure. These include Databricks, Stream
+Analytics, Azure Data Lake Storage and HDInsight. Event hubs provides authentication
+through a shared key. You can use Azure storage to store
+data before you process it in batches. To process streaming data set up
+stream analytics jobs with input and output pipelines. Inputs are provided by event hubs,
+IoT hubs and Azure storage. Stream analytics can root job
+output to many storage systems. These systems include Azure Blob,
+Azure SQL database, Azure Data Lake Storage and
+Azure Cosmos DB. After storing the data,
+run batch analytics in Azure HDInsight or send the output to a service
+like event hubs for consumption. And use the Power BI streaming API
+to send the output to Power BI for real time visualization. To define job transformations, use a simple declarative stream
+analytics query language. The language should let you use simple
+SQL constructs to write complex temporal queries and analytics. And the stream analytics query language
+is consistent with the SQL language. If you're familiar with the SQL language,
+you can start creating jobs. Stream analytics handles security at
+the transport layer between the device and Azure IoT hub. Streaming data is generally discarded
+after the windowing operations finish. Event hubs uses a shared key
+to secure the data transfer. Finally, if you want to store the data,
+your storage device will provide security.

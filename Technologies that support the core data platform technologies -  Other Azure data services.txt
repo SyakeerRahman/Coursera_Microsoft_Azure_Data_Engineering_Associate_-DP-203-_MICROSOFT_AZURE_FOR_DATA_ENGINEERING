@@ -1,0 +1,40 @@
+To round out your understanding of
+offerings on the Azure data platform, let's take a quick look at Azure
+databricks, data factory, and data catalog. Databricks is a serverless platform
+that's optimized for Azure, it provides one click setup,
+streamlined workflows, and an interactive workspace for
+spark based applications. Databreaks adds capabilities
+to Apache spark, including fully managed spark clusters and
+an interactive workspace. You can use rest APIs to program clusters. In Databricks notebooks, you'll use
+familiar programming tools such as ur, python, scala, and sequel. Role based security and
+Azure active directory and databricks provides
+enterprise grade security. Next, we will look at Azure data dactory. Azure data factory is
+a cloud integration service. It orchestrates the movement of
+data between various data stores. The purpose of Azure data factory
+is to retrieve data from one or more data sources and
+convert it into a format that you process. The data sources might present
+data in different ways and contain noise that you need to filter out. You can create data driven workflows
+in the cloud to orchestrate and automate data movement and
+data transformation. You can use data factory to create and
+schedule data driven workflows called pipelines, that can ingest
+data from data stores. Data factory processes and transforms data
+by using compute services such as Azure HD insight, Hadoop, Spark, and
+Azure Machine learning. It publishes output data to data stores
+such as Azure synapse analytics, so that business intelligence
+applications can consume the data. Ultimately, you use data
+factory to organize raw data into meaningful data stores and
+data lakes, so your organization can make
+better business decisions. Finally, let's look at data catalog. Analysts, data scientists, developers,
+and others used data catalog to discover, understand, and consume data sources. And data catalog also features
+a crowdsourcing model of metadata and annotations. In this central location and
+organizations, users contribute their knowledge to build
+a community of data sources that are owned by the organization. Data catalog is a fully
+managed Cloud service. Users discover and
+explore data sources, and they help the organization document
+information about their data sources. It is important to note that
+the data catalog will soon be replaced by Azure purview. This is a unified data governance
+service that helps you manage and govern your on premises, multi cloud,
+and software as a service, SAAS data. And you can also easily create a holistic,
+up-to-date map of your data landscape. With automated data discovery,
+sensitive data classification, and end to end data lineage,
+select the hyperlink to discover more.
